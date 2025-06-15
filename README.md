@@ -114,3 +114,4 @@ If there's something you'd want in production, open a PR. We believe in **scalin
 - https://github.com/jigz/next-forge
 - https://github.com/ixartz/SaaS-Boilerplate
 - https://github.com/t3-oss/create-t3-app
+- https://github.com/AmanVarshney01/create-better-t-stack
