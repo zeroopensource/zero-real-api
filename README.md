@@ -28,6 +28,13 @@ Most "starter" templates stop short of reality. They give you a scaffold, a hint
 - We **welcome contributions** for common needs — auth, payments, admin dashboards, CMS integrations, logging, analytics, and more.
 - If you needed it in production, someone else will too.
 
+### ✅ No Vendor Lock-In
+
+- **No reliance on closed third-party services** for critical infrastructure.
+- **No hard dependencies** on hosted auth, logging providers, or proprietary tools.
+- Every part of this stack is **open source** and **self-hostable**.
+- Your product, your infrastructure, your control.
+
 ## 🌐 Live Deployment
 
 This template isn’t theoretical. It’s deployed. It’s monitored. It’s improved with real-world feedback.
@@ -39,14 +46,14 @@ This template isn’t theoretical. It’s deployed. It’s monitored. It’s imp
 ## 🚀 Features (selected highlights)
 
 - ✅ End-to-end typed APIs (GraphQL + OpenAPI)
-- ✅ Full auth stack (OAuth, sessions, etc.)
-- ✅ Integrated database & migrations
+- ✅ Full auth stack (OAuth, sessions, etc.) — self-hosted, no third-party lock-in
+- ✅ Integrated database & migrations (Postgres, Drizzle/Prisma)
 - ✅ Reusable UI components
-- ✅ Email sending + templates
+- ✅ Email sending + templates (via self-hostable options)
 - ✅ CLI tools for local development
 - ✅ Monorepo support with Turborepo
 - ✅ Hono-based backend with blazing-fast edge support
-- ✅ Production-grade logging, error reporting, and monitoring
+- ✅ Production-grade logging, error reporting, and monitoring — **without vendor lock-in**
 - ✅ Dev/prod environment parity
 
 > Don’t waste time wiring things together — just start building.
@@ -64,6 +71,9 @@ Most starters avoid building features. We accept them. If it’s something a rea
 **Used in production**  
 Not just an idea — this powers real projects. It will be maintained and hardened over time.
 
+**Own your stack**  
+From database to auth to logs — everything here can run on your infrastructure. No lock-in, no black boxes.
+
 ---
 
 ## 📦 Who is this for?
@@ -72,6 +82,7 @@ Not just an idea — this powers real projects. It will be maintained and harden
 - Developers who are tired of redoing the same boilerplate
 - Teams who need a realistic starting point
 - Open source contributors who want to push beyond MVP
+- Builders who value **open source**, **control**, and **self-hosting**
 
 ---
 
@@ -84,7 +95,10 @@ While the exact stack may evolve, this template centers around:
 - **TypeScript** everywhere
 - **UI** is framework-agnostic or defaults to modern component libraries
 - **Database** ready (e.g. Postgres + Prisma or Drizzle)
+- **Auth** is self-hostable and open source
+- **Logging** via open observability tools
 - **CI/CD** and preview deployments configured
+- **No external dependencies you can't host yourself**
 
 ---
 
