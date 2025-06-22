@@ -1,0 +1,12 @@
+{
+  "_references": [
+    "zeroopensource/zero-lib/.prettierrc",
+    "https://github.com/zeroopensource/zero-lib"
+  ],
+  "arrowParens": "avoid",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "all"
+}
