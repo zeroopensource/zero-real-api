@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "postbuild": "pnpm generate-readme",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "check-types": "turbo run check-types",
@@ -13,8 +12,7 @@
     "version": "changeset version",
     "release": "pnpm run build && changeset publish",
     "prepack": "turbo run prepack",
-    "zero-id": "zero-id",
-    "generate-readme": "node --loader ts-node/esm scripts/generate-readme.ts"
+    "zero-id": "zero-id"
   },
   "devDependencies": {
     "ts-node": "10.9.2",
