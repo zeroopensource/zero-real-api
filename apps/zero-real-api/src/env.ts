@@ -8,7 +8,7 @@ expand(
   config({
     path: path.resolve(
       process.cwd(),
-      process.env.NODE_ENV === "test" ? ".env.test" : ".env",
+      `.env${process.env.NODE_ENV ? `.${process.env.NODE_ENV}` : ""}`,
     ),
   }),
 )
