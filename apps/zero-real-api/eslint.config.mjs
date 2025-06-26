@@ -31,6 +31,7 @@ export default antfu(
           ignore: ["README.md"],
         },
       ],
+      "style/arrow-parens": "off",
     },
   },
 )
